@@ -1,0 +1,29 @@
+.referral-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .referral-form input,
+  .referral-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .referral-form button {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .referral-form button:hover {
+    background: #0056b3;
+  }

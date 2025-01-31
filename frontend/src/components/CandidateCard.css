@@ -1,0 +1,29 @@
+.candidate-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .candidate-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .candidate-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .candidate-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .status-dropdown {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
